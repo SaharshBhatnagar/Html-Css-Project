@@ -1,22 +1,14 @@
 body {
     margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: sans-serif, Arial, Helvetica;
     min-height: 100vh;
     background-image: linear-gradient(to bottom right, #80ED99, #45DFB1, #0AD1C8, #14919B, #086477, #213A57);
 }
+
 * {
     padding: 0px;
     box-sizing: border-box;
-}
-
-header {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 99;
 }
